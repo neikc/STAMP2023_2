@@ -4,44 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - STAMP2023</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/STAMP2023.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/STAMP2023.styles.css" asp-append-version="true"/>
 </head>
 <body>
     <header>
-        <!--
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img style="width: 182px; height: 49px" src="~/image/Header and Footer/Logo.png" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Trang chủ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/News">Tin Tức</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/About">Về S.T.A.M.P</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Voting">Bình chọn</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Ranking">Xếp hạng</a>
-                        </li>
-                    </ul>
-        -->
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#F8F1F1">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img style="width: 182px; height: 49px" src="~/image/Header and Footer/Logo.png" /></a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index"><img style="width: 182px; height: 49px" src="~/image/Header and Footer/Logo.png"/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -66,19 +37,15 @@
                 </div>
             </div>
         </nav>
-
-                </div>
-            </div>
-        </nav>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="position:relative">
         <div class="container">
             &copy; 2023 - STAMP2023 - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>

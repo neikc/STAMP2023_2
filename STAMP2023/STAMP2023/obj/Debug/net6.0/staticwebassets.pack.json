@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Header and Footer\\Logo.png",
+      "PackagePath": "staticwebassets\\image\\Header and Footer\\Logo.png"
+    },
+    {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

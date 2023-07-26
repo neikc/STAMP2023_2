@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pupvLhLRbgcStGZV9+8DZAC9H5JL3cz4gfFUrFre1h0=",
+  "Hash": "gks0T6K7hAaMgRFq07r1ma9BKSNYdwR70Ii7969bMRg=",
   "Source": "STAMP2023",
   "BasePath": "_content/STAMP2023",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\Index\\banner1.jpg"
+    },
+    {
+      "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\BG.svg",
+      "SourceId": "STAMP2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\",
+      "BasePath": "_content/STAMP2023",
+      "RelativePath": "image/Index/GioiThieuVeStamp/BG.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Index\\GioiThieuVeStamp\\BG.svg"
+    },
+    {
+      "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\ColoredLine.svg",
+      "SourceId": "STAMP2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\",
+      "BasePath": "_content/STAMP2023",
+      "RelativePath": "image/Index/GioiThieuVeStamp/ColoredLine.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Index\\GioiThieuVeStamp\\ColoredLine.svg"
     },
     {
       "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\Ellipse 4.svg",
@@ -236,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\Index\\GioiThieuVeStamp\\GIẢI NHẤT 4.png"
+    },
+    {
+      "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\Pattern.svg",
+      "SourceId": "STAMP2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\",
+      "BasePath": "_content/STAMP2023",
+      "RelativePath": "image/Index/GioiThieuVeStamp/Pattern.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Index\\GioiThieuVeStamp\\Pattern.svg"
     },
     {
       "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\THỜI GIAN.png",

@@ -4,117 +4,240 @@
     ViewData["Title"] = "Trang chủ";
 }
 
-<!--Banner và Countdown-->
-<div style="padding:1em">
-    <img style="width: 1442px; height: 740px" src="~/image/Index/banner1.jpg" />
-</div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .stamp-border {
+            border: 5px solid #E8AA42;
+            border-radius: 10px;
+            padding: 20px;
+        }
 
-<div style="width: 979px; height: 444px;margin:auto; position:relative">
-    <div style="width: 979px; height: 444px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 6px 8px 10px 3px rgba(0, 0, 0, 0.25); border-radius: 62px"></div>
-    <div style="width: 596px; height: 98px; left: 191px; top: 37px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">Thời gian tham gia còn</div>
-    <div style="width: 462px; height: 104.65px; left: 258px; top: 300px; position: absolute">
-        <div style="width: 462px; height: 104.65px; left: 0px; top: 0px; position: absolute; background: #EA4335; border-radius: 50px"></div>
-        <div style="width: 417.41px; height: 34.17px; left: 21.57px; top: 42px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">THAM GIA NGAY</div>
-    </div>
-    <div style="width: 860px; height: 184px; left: 60px; top: 114px; position: absolute">
-        <div style="width: 860px; height: 184px; left: 0px; top: 0px; position: absolute; border-radius: 26px"></div>
-        <div style="width: 109px; height: 68.08px; left: 5px; top: 57.96px; position: absolute; text-align: center; color: #EA4335; font-size: 55px; font-family: Josefin Sans; font-weight: 600; word-wrap: break-word">0</div>
-        <div style="width: 109px; height: 68.08px; left: 224px; top: 57.96px; position: absolute; text-align: center; color: #4285F4; font-size: 55px; font-family: Josefin Sans; font-weight: 600; word-wrap: break-word">0</div>
-        <div style="width: 109px; height: 68.08px; left: 430px; top: 55.20px; position: absolute; text-align: center; color: #E57C23; font-size: 55px; font-family: Josefin Sans; font-weight: 600; word-wrap: break-word">0</div>
-        <div style="width: 109px; height: 68.08px; left: 644px; top: 57.96px; position: absolute; text-align: center; color: #34A853; font-size: 55px; font-family: Josefin Sans; font-weight: 600; word-wrap: break-word">0</div>
-        <div style="width: 134px; height: 57.96px; left: 69px; top: 63.48px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">ngày</div>
-        <div style="width: 134px; height: 57.96px; left: 274px; top: 60.72px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">giờ</div>
-        <div style="width: 134px; height: 57.96px; left: 490px; top: 63.48px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">phút</div>
-        <div style="width: 134px; height: 57.96px; left: 702px; top: 63.48px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">giây</div>
-    </div>
-</div>
+        .countdown-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 30px;
+            background-color: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 50%;
+            height: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-<!--Giới thiệu về S.T.A.M.P-->
+        .countdown-item {
+            width: 25%;
+            text-align: center;
+            word-wrap: break-word;
+            top: 50%;
+            left: 50%;
+        }
 
-<div style="width: 1440px; height: 667px; position: relative; margin:auto; padding:1em">
-    <div style="width: 1488px; height: 643px; left: -24px; top: 24px; position: absolute">
-        <img style="width: 1464px; height: 566px; left: 0px; top: 0px; position: absolute" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT (3) 1.png" />
-        <img style="width: 1464px; height: 566px; left: 0px; top: 100px; position: absolute" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT (3) 2.png" />
-        <!--img style="width: 1464px; height: 566px; left: 1488px; top: 643px; position: absolute; transform: rotate(180deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT (3) 1.png" /-->
-    </div>
-    <div style="width: 636px; height: 42px; left: 402px; top: 148px; position: relative; text-align: center; color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-        GIỚI THIỆU VỀ S.T.A.M.P
-        <div class="container" style="width: 275px; height: 5px; top:0.5em; margin:auto; position: relative; bottom:0.5em">
-            <div style="width: 56px; height: 7px; left: 0px; top: 0px; position: absolute; background: #EA4335; border-radius: 2px"></div>
-            <div style="width: 56px; height: 7px; left: 73px; top: 0px; position: absolute; background: #4285F4; border-radius: 2px"></div>
-            <div style="width: 56px; height: 7px; left: 146px; top: 0px; position: absolute; background: #E57C23; border-radius: 2px"></div>
-            <div style="width: 56px; height: 7px; left: 219px; top: 0px; position: absolute; background: #34A853; border-radius: 2px"></div>
-        </div>
-    </div>
-    <img style="width: 579px; height: 161px; left: 829px; top: 297px; position: absolute" src="~/image/Index/GioiThieuVeStamp/Untitled design (1) 1.png" />
-    <div style="width: 727px; height: 357px; left: 95px; top: 9em; position: relative; text-align: justify">
-        <span style="color: #34A853; font-size: 27px; font-family: Josefin Sans; font-style: italic; font-weight: 600; line-height: 35px; word-wrap: break-word">
-            Cuộc thi thiết kế và triển lãm tem thư S.T.A.M.P
-        </span>
-        <span style="color: black; font-size: 24px; font-family: Josefin Sans; font-weight: 600; line-height: 35px; word-wrap: break-word"> 
-            được lấy cảm hứng từ ngày kỷ niệm “Ngày tem Việt Nam” 27/08. 
-            Cuộc thi được tổ chức với mục tiêu vừa giúp các bạn sinh viên lan tỏa tình yêu quê hương đất nước thông qua những tác phẩm tem thư 
-            vừa giúp các bạn có thêm trải nghiệm thiết kế ra một tác phẩm tem thư hoàn chỉnh và duy trì sức sống trường tồn của tem thư
-        </span>
-    </div>
-    <div style="width: 1380.52px; height: 538.32px; left: 0px; top: 112px; position: absolute">
-        <img style="width: 127.20px; height: 87.57px; left: 973.66px; top: 354px; position: absolute; transform: rotate(17.04deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 1.png" />
-        <img style="width: 157.28px; height: 90.69px; left: 95px; top: 456.36px; position: absolute; transform: rotate(-25.36deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 2.png" />
-        <img style="width: 132.38px; height: 76.34px; left: 0px; top: 56.70px; position: absolute; transform: rotate(-25.36deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 3.png" />
-        <img style="width: 132.38px; height: 76.34px; left: 1291.51px; top: 30px; position: absolute; transform: rotate(47.75deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 4.png" />
-    </div>
-</div>
+        .countdown-button {
+            text-align: center;
+            word-wrap: break-word;
+            top: 50%;
+            left: 50%;
+            background-color: red;
+            color: white;
+            font-size: 150%;
+            border-radius: 30px;
+        }
 
-<div style="width: 1442px; height: 1053px; padding-left: 80px; padding-right: 80px; padding-top: 29px; padding-bottom: 29px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
-    <div style="width: 1236.25px; height: 985px; position: relative">
-        <div style="width: 649px; height: 87px; left: 294.08px; top: 0px; position: absolute; text-align: center; color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-            CƠ CẤU GIẢI THƯỞNG
-            <div class="container" style="width: 275px; height: 5px; top:0.5em; margin:auto; position: relative; bottom:0.5em">
-                <div style="width: 56px; height: 7px; left: 0px; top: 0px; position: absolute; background: #EA4335; border-radius: 2px"></div>
-                <div style="width: 56px; height: 7px; left: 73px; top: 0px; position: absolute; background: #4285F4; border-radius: 2px"></div>
-                <div style="width: 56px; height: 7px; left: 146px; top: 0px; position: absolute; background: #E57C23; border-radius: 2px"></div>
-                <div style="width: 56px; height: 7px; left: 219px; top: 0px; position: absolute; background: #34A853; border-radius: 2px"></div>
+        .index_background-image,
+        .index_pattern-image {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120%;
+            max-height: 780px;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .index_cocaugiaithuong {
+            text-align: center;
+            color: #E57C23;
+            font-size: 200%;
+            font-weight: 700;
+            letter-spacing: 6px;
+            word-wrap: break-word;
+        }
+
+        .index_cocaugiaithuong_border {
+            height: 60%;
+            opacity: 0.80;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            border: 1px black solid
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Banner and Countdown -->
+    <div class="position-relative">
+        <img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">
+        <div class="countdown-container position-absolute top-100 start-50 translate-middle container-md" id="Index_Countdown">
+            <div class="w3-card-4 rounded-lg p-4">
+                <h2>Thời gian tham gia còn</h2>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-danger">00</div>
+                        <div>ngày</div>
+                    </div>
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-primary">00</div>
+                        <div>giờ</div>
+                    </div>
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-warning">00</div>
+                        <div>phút</div>
+                    </div>
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-success">00</div>
+                        <div>giây</div>
+                    </div>
+                </div>
+                <!--This class is bootstrap-->
+                <button class="btn btn-danger btn-lg btn-block mt-4 countdown-button">THAM GIA NGAY</button>
+
             </div>
         </div>
-        <div style="width: 706px; height: 110px; left: 265.75px; top: 255px; position: absolute; opacity: 0.80; border-radius: 15px; border: 1px #E8AA42 solid"></div>
-        <div style="width: 511px; height: 110px; left: 0.25px; top: 565px; position: absolute; opacity: 0.80; box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 1px black solid"></div>
-        <div style="width: 511px; height: 110px; left: 725.25px; top: 565px; position: absolute; opacity: 0.80; box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 1px black solid"></div>
-        <div style="left: 511.75px; top: 182px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">GIẢI NHẤT</div>
-        <div style="left: 363.12px; top: 282px; position: absolute; text-align: center; color: #E57C23; font-size: 60px; font-family: Josefin Sans; font-weight: 700; letter-spacing: 6px; word-wrap: break-word">3.000.000 VNĐ</div>
-        <div style="left: 41.12px; top: 598px; position: absolute; text-align: center; color: #E57C23; font-size: 50px; font-family: Josefin Sans; font-weight: 700; letter-spacing: 5px; word-wrap: break-word">2.000.000 VNĐ</div>
-        <div style="left: 772.12px; top: 598px; position: absolute; text-align: center; color: #E57C23; font-size: 50px; font-family: Josefin Sans; font-weight: 700; letter-spacing: 5px; word-wrap: break-word">1.000.000 VNĐ</div>
-        <div style="left: 68.12px; top: 908px; position: absolute; text-align: center; color: #E57C23; font-size: 50px; font-family: Josefin Sans; font-weight: 700; letter-spacing: 5px; word-wrap: break-word">500.000 VNĐ</div>
-        <div style="left: 792.12px; top: 908px; position: absolute; text-align: center; color: #E57C23; font-size: 50px; font-family: Josefin Sans; font-weight: 700; letter-spacing: 5px; word-wrap: break-word">500.000 VNĐ</div>
-        <div style="left: 166.25px; top: 477px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">GIẢI NHÌ</div>
-        <div style="width: 511px; height: 110px; left: 0px; top: 875px; position: absolute; opacity: 0.80; box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 1px black solid"></div>
-        <div style="left: 42px; top: 787px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">GIẢI KHUYẾN KHÍCH</div>
-        <div style="width: 511px; height: 110px; left: 717.12px; top: 875px; position: absolute; opacity: 0.80; box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25); border-radius: 15px; border: 1px black solid"></div>
-        <div style="left: 809.12px; top: 787px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">GIẢI YÊU THÍCH</div>
-        <div style="width: 214px; height: 51px; left: 873.25px; top: 487px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">GIẢI BA</div>
     </div>
-</div>
 
 
-<div style="width: 1440px; height: 667px; position: relative; margin:auto; padding:1em">
-    <div style="width: 1488px; height: 643px; left: -24px; top: 24px; position: absolute">
-        <img style="width: 1464px; height: 566px; left: 0px; top: 0px; position: absolute" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT (3) 1.png" />
-        <img style="width: 1464px; height: 566px; left: 0px; top: 100px; position: absolute" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT (3) 2.png" />
-        <!--img style="width: 1464px; height: 566px; left: 1488px; top: 643px; position: absolute; transform: rotate(180deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT (3) 1.png" /-->
-    </div>
-    <div style="width: 636px; height: 42px; left: 402px; top: 148px; position: relative; text-align: center; color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-        CÁC MỐC THỜI GIAN
-        <div class="container" style="width: 275px; height: 5px; top:0.5em; margin:auto; position: relative; bottom:0.5em">
-            <div style="width: 56px; height: 7px; left: 0px; top: 0px; position: absolute; background: #EA4335; border-radius: 2px"></div>
-            <div style="width: 56px; height: 7px; left: 73px; top: 0px; position: absolute; background: #4285F4; border-radius: 2px"></div>
-            <div style="width: 56px; height: 7px; left: 146px; top: 0px; position: absolute; background: #E57C23; border-radius: 2px"></div>
-            <div style="width: 56px; height: 7px; left: 219px; top: 0px; position: absolute; background: #34A853; border-radius: 2px"></div>
+
+
+    <!-- Add space to separate the countdown section -->
+    <div style="padding-bottom:250px"></div>
+
+    <div class=" text-center position-relative" style="display: flex; align-items: center; justify-content: center;">
+        <!-- Background Image -->
+        <img class="background-img img-fluid" src="~/image/Index/GioiThieuVeStamp/BG.svg" alt="Background Image">
+        <div class="position-absolute top-0 w-100 h-100">
+            <!-- Pattern Image -->
+            <img class="pattern-img img-fluid" src="~/image/Index/GioiThieuVeStamp/Pattern.svg" alt="Pattern Image">
+            <!-- Title and line -->
+            <div class="position-absolute top-0 w-100 h-100" style="padding-top:8%; padding-inline:15%">
+                <h2 class="text-danger" style="color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
+                    GIỚI THIỆU VỀ S.T.A.M.P
+                </h2>
+                <div class="align-content-center" style="padding-bottom:3%">
+                    <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/ColoredLine.svg" alt="Stamp Image">
+                </div>
+
+                <!-- Content gioi thieu ve STAMP -->
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-6 col-md-12 order-2 order-lg-1 text-left" style="text-align:justify">
+                        <span style="color: #34A853; font-size: 27px; font-family: Josefin Sans; font-style: italic; font-weight: 600; line-height: 35px; word-wrap: break-word">
+                            Cuộc thi thiết kế và triển lãm tem thư S.T.A.M.P
+                        </span>
+                        <span style="color: black; font-size: 24px; font-family: Josefin Sans; font-weight: 600; line-height: 35px; word-wrap: break-word">
+                            Được lấy cảm hứng từ ngày kỷ niệm “Ngày tem Việt Nam” 27/08.
+                            Cuộc thi được tổ chức với mục tiêu vừa giúp các bạn sinh viên lan tỏa tình yêu quê hương đất nước thông qua những tác phẩm tem thư
+                            vừa giúp các bạn có thêm trải nghiệm thiết kế ra một tác phẩm tem thư hoàn chỉnh và duy trì sức sống trường tồn của tem thư
+                        </span>
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                        <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/Untitled design (1) 1.png" alt="Stamp Image">
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-    <img style="width: 1200px; height: auto; position:relative; top:7em" src="~/image/Index/ThoiGian.png" />
-    <div style="width: 1380.52px; height: 538.32px; left: 0px; top: 112px; position: absolute">
-        <img style="width: 127.20px; height: 87.57px; left: 973.66px; top: 354px; position: absolute; transform: rotate(17.04deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 1.png" />
-        <img style="width: 157.28px; height: 90.69px; left: 95px; top: 456.36px; position: absolute; transform: rotate(-25.36deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 2.png" />
-        <img style="width: 132.38px; height: 76.34px; left: 0px; top: 56.70px; position: absolute; transform: rotate(-25.36deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 3.png" />
-        <img style="width: 132.38px; height: 76.34px; left: 1291.51px; top: 30px; position: absolute; transform: rotate(47.75deg); transform-origin: 0 0" src="~/image/Index/GioiThieuVeStamp/GIẢI NHẤT 4.png" />
+
+    <!-- Add space to separate the introduction section -->
+    <div class="container-fluid py-5"></div>
+
+    <!-- Cơ cấu giải thưởng -->
+    <div class="container text-center">
+        <!-- Title and line -->
+        <h2 class="text-danger">CƠ CẤU GIẢI THƯỞNG</h2>
+        <div class="align-content-center" style="padding-bottom:3%">
+            <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/ColoredLine.svg" alt="Stamp Image">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI NHẤT</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%; border: 3px coral; box-shadow: 3px 3px 4px rgba(125, 78, 172, 0.75) ">
+                            <p class="index_cocaugiaithuong" style="color:orangered">3.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI NHÌ</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">2.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI BA</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">1.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI KHUYẾN KHÍCH</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI YÊU THÍCH</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    <!-- Add space to separate the prize section -->
+    <div class="container-fluid py-5"></div>
+
+    <!-- Các mốc thời gian -->
+    <div class=" text-center position-relative" style="display: flex; align-items: center; justify-content: center;">
+        <!-- Background Image -->
+        <img class="background-img img-fluid" src="~/image/Index/GioiThieuVeStamp/BG.svg" alt="Background Image">
+        <div class="position-absolute top-0 w-100 h-100">
+            <!-- Pattern Image -->
+            <img class="pattern-img img-fluid" src="~/image/Index/GioiThieuVeStamp/Pattern.svg" alt="Pattern Image">
+            <!-- Title and line -->
+            <div class="position-absolute top-0 w-100 h-100" style="padding-top:8%; padding-inline:15%">
+                <h2 class="text-danger" style="color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
+                    CÁC MỐC THỜI GIAN
+                </h2>
+                <div class="align-content-center">
+                    <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/ColoredLine.svg" alt="Stamp Image">
+                </div>
+                <!-- Content TIMELINE -->
+                <div class="w3-container w3-bottombar w3-border-red w3-margin-bottom"></div>
+                <img class="img-fluid" src="~/image/Index/ThoiGian.png" alt="Timeline">
+            </div>
+        </div>
+    </div>
+
+</body>

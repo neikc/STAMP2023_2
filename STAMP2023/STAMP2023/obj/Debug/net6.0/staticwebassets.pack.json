@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\image\\Header and Footer\\Logo.png"
     },
     {
+      "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\BG.svg",
+      "PackagePath": "staticwebassets\\image\\Index\\GioiThieuVeStamp\\BG.svg"
+    },
+    {
+      "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\ColoredLine.svg",
+      "PackagePath": "staticwebassets\\image\\Index\\GioiThieuVeStamp\\ColoredLine.svg"
+    },
+    {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\Ellipse 4.svg",
       "PackagePath": "staticwebassets\\image\\Index\\GioiThieuVeStamp\\Ellipse 4.svg"
     },
@@ -43,6 +51,10 @@
     {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\GIẢI NHẤT 4.png",
       "PackagePath": "staticwebassets\\image\\Index\\GioiThieuVeStamp\\GIẢI NHẤT 4.png"
+    },
+    {
+      "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\Pattern.svg",
+      "PackagePath": "staticwebassets\\image\\Index\\GioiThieuVeStamp\\Pattern.svg"
     },
     {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\GioiThieuVeStamp\\THỜI GIAN.png",

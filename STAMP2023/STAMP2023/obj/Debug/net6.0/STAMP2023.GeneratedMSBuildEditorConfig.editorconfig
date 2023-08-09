@@ -5,57 +5,56 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = STAMP2023
 build_property.RootNamespace = STAMP2023
-build_property.ProjectDir = D:\BIT\STAMP2023\STAMP2023\STAMP2023\
+build_property.ProjectDir = D:\Tuan\Self-Practice\Web\STAMP_clone\STAMP2023\STAMP2023\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\BIT\STAMP2023\STAMP2023\STAMP2023
+build_property.MSBuildProjectDirectory = D:\Tuan\Self-Practice\Web\STAMP_clone\STAMP2023\STAMP2023
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/About.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Error.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Index.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/News.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Privacy.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Ranking.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Ranking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFua2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Voting.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Voting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/_ViewImports.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/_ViewStart.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Shared/_Layout.cshtml]
+[D:/Tuan/Self-Practice/Web/STAMP_clone/STAMP2023/STAMP2023/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rbwb0su1lt

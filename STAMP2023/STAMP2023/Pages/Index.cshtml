@@ -77,36 +77,77 @@
 
         </script>
 
-        <div class="countdown-container position-absolute top-100 start-50 translate-middle container-md" id="Index_Countdown">
+        <!-- Countdown -->
+        <div class="container-md position-absolute top-100 start-50 translate-middle" style="width: 80%; max-width: 800px; height: 40%; max-height: 700px; border-radius: 30px; background-color: white; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);">
+            <!--<div class="  container-md" id="Index_Countdown">-->
             <div class="w3-card-4 rounded-lg p-4">
-                <h2>Thời gian tham gia còn</h2>
+                <h2 class="mb-4">Thời gian tham gia còn</h2>
                 <div class="row justify-content-center">
                     <div class="col-6 col-md-3 countdown-item">
-                        <div class="display-4 text-danger">00</div>
-                        <div>ngày</div>
+                        <div class="display-4 text-danger countdown-value" id="day">00</div>
+                        <span class="countdown-label">Ngày</span>
                     </div>
                     <div class="col-6 col-md-3 countdown-item">
-                        <div class="display-4 text-primary">00</div>
-                        <div>giờ</div>
+                        <div class="display-4 text-primary countdown-value" id="hour">00</div>
+                        <span class="countdown-label">Giờ</span>
                     </div>
                     <div class="col-6 col-md-3 countdown-item">
-                        <div class="display-4 text-warning">00</div>
-                        <div>phút</div>
+                        <div class="display-4 text-warning countdown-value" id="minute">00</div>
+                        <span class="countdown-label">Phút</span>
                     </div>
                     <div class="col-6 col-md-3 countdown-item">
-                        <div class="display-4 text-success">00</div>
-                        <div>giây</div>
+                        <div class="display-4 text-success countdown-value" id="second">00</div>
+                        <span class="countdown-label">Giây</span>
                     </div>
                 </div>
-                <!--This class is bootstrap-->
                 <button class="btn btn-danger btn-lg btn-block mt-4 countdown-button">THAM GIA NGAY</button>
-
             </div>
         </div>
+
+        <style>
+            .countdown-value {
+                font-size: 3rem;
+            }
+
+            .countdown-label {
+                font-size: 2rem;
+            }
+
+            @@media (max-width: 576px) {
+                .countdown-value {
+                    font-size: 2rem;
+                }
+            }
+        </style>
+
+        <script>
+            const countdownDate = new Date("2024-01-01").getTime();
+
+            const countdownInterval = setInterval(() => {
+                const now = new Date().getTime();
+                const timeRemaining = countdownDate - now;
+
+                const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                document.getElementById("day").textContent = days < 10 ? "0" + days : days;
+                document.getElementById("hour").textContent = hours < 10 ? "0" + hours : hours;
+                document.getElementById("minute").textContent = minutes < 10 ? "0" + minutes : minutes;
+                document.getElementById("second").textContent = seconds < 10 ? "0" + seconds : seconds;
+
+                if (timeRemaining < 0) {
+                    clearInterval(countdownInterval);
+                    // Ket thuc thi lam gi do o day
+                }
+            }, 1000);
+        </script>
+
     </div>
 
     <!-- Add space to separate the countdown section -->
-    <div style="padding-bottom:250px"></div>
+    <div style="padding-bottom:200px"></div>
 
     <div class=" text-center position-relative" style="display: flex; align-items: center; justify-content: center;">
         <!-- Background Image -->

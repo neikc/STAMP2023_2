@@ -11,39 +11,36 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#F8F1F1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary header">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img style="width: 182px; height: 49px" src="~/image/Header and Footer/Logo.png" /></a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index"><img class="logo" src="~/image/Header and Footer/Logo.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item" style="width: 140px; padding: 0; margin: 0 10px;">
-                            <a class="nav-link" asp-area="" asp-page="/Index" style="color: rgba(0, 0, 0, 0.60);" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Trang chủ</a>
+                <div class="collapse navbar-collapse navbar-box" id="navbarNavDropdown">
+                    <ul class="navbar-nav header-item">
+                        <li class="nav-item">
+                            <a class="nav-link item" asp-area="" asp-page="/Index" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Trang chủ</a>
                         </li>
-                        <li class="nav-item" style="width: 140px; padding: 0; margin: 0 10px;">
-                            <a class="nav-link" asp-area="" asp-page="/News" style="color: rgba(0, 0, 0, 0.60);" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Tin Tức</a>
+                        <li class="nav-item item">
+                            <a class="nav-link item" asp-area="" asp-page="/News" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Tin Tức</a>
                         </li>
-                        <li class="nav-item" style="width: 180px; padding: 0; margin: 0 10px;">
-                            <a class="nav-link" asp-area="" asp-page="/About" style="color: rgba(0, 0, 0, 0.60);" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Về S.T.A.M.P</a>
+                        <li class="nav-item item">
+                            <a class="nav-link item" asp-area="" asp-page="/About" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Về S.T.A.M.P</a>
                         </li>
-                        <li class="nav-item" style="width: 140px; padding: 0; margin: 0 10px;">
-                            <a class="nav-link" asp-area="" asp-page="/Voting" style="color: rgba(0, 0, 0, 0.60);" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Bình chọn</a>
+                        <li class="nav-item item">
+                            <a class="nav-link item" asp-area="" asp-page="/Voting" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Bình chọn</a>
                         </li>
-                        <li class="nav-item" style="width: 140px; padding: 0; margin: 0 10px;">
-                            <a class="nav-link" asp-area="" asp-page="/Ranking" style="color: rgba(0, 0, 0, 0.60);" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Xếp hạng</a>
+                        <li class="nav-item item">
+                            <a class="nav-link item" asp-area="" asp-page="/Ranking" onmouseover="this.style.color='#EA4335';" onmouseout="this.style.color='rgba(0, 0, 0, 0.60)';">Xếp hạng</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item" style="width: 140px; padding: 0; margin: 0 30px;">
-                            <a class="nav-link" asp-area="" asp-page="/Index" style="color: #EA4335; border-radius: 50.12px; border: 0.50px #EA4335 solid;" onmouseover="this.style.backgroundColor='#EA4335'; this.style.color='#F8F1F1';" onmouseout="this.style.backgroundColor='#F8F1F1'; this.style.color='#EA4335'">Đăng nhập</a>
-                        </li>
-                        <li class="nav-item" style="width: 140px; padding: 0; margin: 0 30px;">
-                            <a class="nav-link" asp-area="" asp-page="/Index" style="color: #EA4335; border-radius: 50.12px; border: 0.50px #EA4335 solid;" onmouseover="this.style.backgroundColor='#EA4335'; this.style.color='#F8F1F1';" onmouseout="this.style.backgroundColor='#F8F1F1'; this.style.color='#EA4335'">Đăng ký</a>
+                <div class="collapse navbar-collapse login-box" id="navbarNavDropdown">
+                    <ul class="navbar-nav header-item">
+                        <li class="nav-item">
+                            <a class="nav-link login" asp-area="" asp-page="/Index" onmouseover="this.style.backgroundColor='#EA4335'; this.style.color='#F8F1F1';" onmouseout="this.style.backgroundColor='#F8F1F1'; this.style.color='#EA4335'">Đăng nhập</a>
                     </ul>
                 </div>
             </div>

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\STAMP2023.bundle.scp.css"
     },
     {
+      "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -71,6 +75,10 @@
     {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\banner1.jpg",
       "PackagePath": "staticwebassets\\image\\Index\\banner1.jpg"
+    },
+    {
+      "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
     },
     {
       "Id": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\js\\site.js",

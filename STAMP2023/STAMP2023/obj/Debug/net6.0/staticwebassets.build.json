@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gks0T6K7hAaMgRFq07r1ma9BKSNYdwR70Ii7969bMRg=",
+  "Hash": "04FqG7E6J6OUuo2G9wP0/KWqGAmkhjsHOatMccg1Qx4=",
   "Source": "STAMP2023",
   "BasePath": "_content/STAMP2023",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\STAMP2023.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\css\\Index.css",
+      "SourceId": "STAMP2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\",
+      "BasePath": "_content/STAMP2023",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
       "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\css\\site.css",
@@ -338,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\Index\\ThoiGian.png"
+    },
+    {
+      "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\js\\Index.js",
+      "SourceId": "STAMP2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\",
+      "BasePath": "_content/STAMP2023",
+      "RelativePath": "js/Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Index.js"
     },
     {
       "Identity": "D:\\BIT\\STAMP2023\\STAMP2023\\STAMP2023\\wwwroot\\js\\site.js",

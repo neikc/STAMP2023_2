@@ -8,82 +8,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .stamp-border {
-            border: 5px solid #E8AA42;
-            border-radius: 10px;
-            padding: 20px;
-        }
-
-        .countdown-container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 30px;
-            background-color: white;
-            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-            width: 50%;
-            height: 45%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .countdown-item {
-            width: 25%;
-            text-align: center;
-            word-wrap: break-word;
-            top: 50%;
-            left: 50%;
-        }
-
-        .countdown-button {
-            text-align: center;
-            word-wrap: break-word;
-            top: 50%;
-            left: 50%;
-            background-color: red;
-            color: white;
-            font-size: 150%;
-            border-radius: 30px;
-        }
-
-        .index_background-image,
-        .index_pattern-image {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 120%;
-            max-height: 780px;
-            z-index: -1;
-            object-fit: cover;
-        }
-
-        .index_cocaugiaithuong {
-            text-align: center;
-            color: #E57C23;
-            font-size: 200%;
-            font-weight: 700;
-            letter-spacing: 6px;
-            word-wrap: break-word;
-        }
-
-        .index_cocaugiaithuong_border {
-            height: 60%;
-            opacity: 0.80;
-            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 30px;
-            border: 1px black solid
-        }
-    </style>
+    <link rel="stylesheet" href="~/css/Index.css"/>
+    
 </head>
 
 <body>
     <!-- Banner and Countdown -->
     <div class="position-relative">
-        <img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">
+        <!--<img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">-->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <!--<img src="~/image/Index/banner1.jpg" style="width:100%">-->
+                <img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <!--<img src="~/image/Index/banner1.jpg" style="width:100%">-->
+                <img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <!--<img src="~/image/Index/banner1.jpg" style="width:100%">-->
+                <img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">
+                <div class="text">Caption Three</div>
+            </div>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+
+                slides[slideIndex - 1].style.display = "block";
+                slides[slideIndex - 1].style.opacity = "1"; // Fade in effect
+
+                setTimeout(() => {
+                    //slides[slideIndex - 1].style.opacity = "0"; // Fade out effect
+                    fade(slides);
+                    //unfade(slides);
+                    setTimeout(showSlides, 500); // Delay before next slide
+                }, 7000); // Display time of the slide
+            }
+
+        </script>
+
         <div class="countdown-container position-absolute top-100 start-50 translate-middle container-md" id="Index_Countdown">
             <div class="w3-card-4 rounded-lg p-4">
                 <h2>Thời gian tham gia còn</h2>
@@ -111,9 +104,6 @@
             </div>
         </div>
     </div>
-
-
-
 
     <!-- Add space to separate the countdown section -->
     <div style="padding-bottom:250px"></div>

@@ -1,0 +1,21 @@
+@page
+@model UserProfileModel
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div style="width: 800px; height: 500px" class="relative px-12 py-4 flex flex-col justify-around items-center" >
+    <h4>Tác phẩm dự thi của bạn </h4>
+    <button>
+        <img src="~/icons/RedCancel.svg" alt="" class="absolute top-10 right-16" style="width:30px">
+    </button>
+    @* content *@
+    <div class="bg-gray-300 rounded-xl mt-4" style="width:400px; height:230px">
+    </div>
+
+    <div class="flex items-center justify-between w-8/12 my-4">
+        <button class="py-2 px-4 bg-red-400 text-white rounded-2xl ">Xóa</button>
+        <button class="py-2 px-4 text-white rounded-2xl" style="background: #E57C23">Chỉnh sửa</button>
+    </div>
+</div>

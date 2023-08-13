@@ -3,7 +3,61 @@
 @{
     ViewData["Title"] = "Xếp hạng";
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div class="flex flex-col items-center">
+    @* banner *@
+    <div class="bg-gray-300 w-full " style="height: 400px;">
+        banner
+    </div>
+    <div class="grid grid-cols-3 gap-20 w-8/12 mt-20 ">
+        @* list items (3) *@
+        @* items *@
+        <div class="border-2 border-black rounded-lg py-8 ">
+           <span>title</span> 
+           <span>Author</span>
+            <div class="flex flex-col justify-around items-center">
+                <img class="relative " style="width:200px"  src="~/icons/avatarBorder.svg" alt="">
+                <img class="absolute " style="width: 150px;" src="~/image/Profile/DefaultImg.svg" alt="">
+            </div>
+            @* button *@
+            <div class="flex items-center justify-around">
+                <button style="width:80px; height:40px" class="justify-center bg-yellow-600 flex items-center rounded-xl">
+                    <p class="mr-2">00</p>
+                    <img style="width:20px" src="~/icons/like.svg" alt="">
+                </button>
 
-<div class="text-center">
-    <h1 class="display-4">Xếp hạng</h1>
+                <button style="width:80px; height:40px" class="justify-center bg-green-600 flex items-center rounded-xl">
+                    <p class="mr-2">#02</p>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="flex w-full justify-between">
+        <div> </div>
+        @* search box *@
+        <div class=" border-2 border-black flex items-around rounded-full p-2">
+            <img class="mr-2" src="~/icons/search.svg" alt="">
+            <input type="text" placeholder="Tìm kiếm">
+        </div>
+    </div>
+
+    @* ranking list*@
+    <div class="w-full flex justify-center">
+        @* ranking item *@
+        <div class="flex items-center p-2 mt-4 justify-around border-2 border-blue-700 rounded-xl w-8/12">
+            <h3 class="text-green-500" style="font-size:30px">#01</h3>
+            <p class="font-semibold">title</p>
+            <p class="font-semibold">Author</p>
+            <button class="flex items-center justify-between rounded-xl bg-gray-400 px-4 py-1">
+                <p class="font-bold mr-2">01</p>
+                <img src="~/icons/like.svg" alt="like icon">
+            </button>
+        </div>
+    </div>
+    <style>
+        input:focus{
+            outline: none;
+        }
+    </style>
 </div>

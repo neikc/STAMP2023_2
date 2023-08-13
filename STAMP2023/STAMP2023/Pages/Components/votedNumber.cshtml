@@ -1,0 +1,19 @@
+@page
+@model UserProfileModel
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div style="width: 800px;">
+    <span style="color:  #E57C23;">Số luợng đã vote</span>
+    @* foreach here *@
+    <div class="flex items-center justify-between px-8 py-2 rounded-xl"   style="background-color: #F8F1F1;">
+        <div class="flex items-center">
+            <p class="font-semibold mr-6">1</p>
+            <img class="w-2/12 mr-6" src="~/image/Profile/DefaultProfileAvatar.svg" alt="avatar">
+            <p class="font-semibold">ten tai khoan</p>
+        </div>
+        <div class="px-4 py-2 bg-green-500 text-white rounded-2xl">Đã vote</div>
+    </div>
+</div>

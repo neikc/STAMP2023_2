@@ -9,53 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = STAMP2023
 build_property.RootNamespace = STAMP2023
-build_property.ProjectDir = D:\BIT\STAMP2023\STAMP2023\STAMP2023\
+build_property.ProjectDir = /home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\BIT\STAMP2023\STAMP2023\STAMP2023
+build_property.MSBuildProjectDirectory = /home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/ContentUploadModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Db250ZW50VXBsb2FkTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/GroupBasedRegistedForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Hcm91cEJhc2VkUmVnaXN0ZWRGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/News.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3cy5jc2h0bWw=
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/ImageUploadModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9JbWFnZVVwbG9hZE1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/ItemDescriptionModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9JdGVtRGVzY3JpcHRpb25Nb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Ranking.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFua2luZy5jc2h0bWw=
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/ItemUploadModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9JdGVtVXBsb2FkTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/SuccessRegistedModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9TdWNjZXNzUmVnaXN0ZWRNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Voting.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90aW5nLmNzaHRtbA==
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/UploadCategoryForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9VcGxvYWRDYXRlZ29yeUZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Components/votedNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy92b3RlZE51bWJlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BIT/STAMP2023/STAMP2023/STAMP2023/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-rbwb0su1lt
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Ranking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmFua2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/UserProfile/Collection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclByb2ZpbGUvQ29sbGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/UserProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclByb2ZpbGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/UserProfile/Information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclByb2ZpbGUvSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/UserProfile/Ranking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclByb2ZpbGUvUmFua2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/UserProfile/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclByb2ZpbGUvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Vote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVm90ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Voting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVm90aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/trg/se/BNg/STAMP2023_2/STAMP2023/STAMP2023/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ujq9c39umh

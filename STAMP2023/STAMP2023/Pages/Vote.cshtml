@@ -1,0 +1,66 @@
+@page
+@model UserProfileModel
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div >
+    @* logo *@
+    <div class="relative">
+        <div class=" flex items-center justify-center w-full mt-8">
+            <div class="w-10/12 flex items-center justify-center" style="background-color: #F8F1F1; height:360px; border-radius: 0px 0px 60px 60px">
+                <img src="~/image/Header and Footer/Logo.png" alt="logo">
+            </div>
+        </div>
+    </div>
+    @* search *@
+    <div class="flex justify-end">
+        <div class="flex items-center border-2 border-black rounded-full mr-40 mt-8" style="width: 400px;">
+            <object data="~/icons/search.svg" type="image/svg+xml" class="ml-2"></object>        
+            <input type="text" placeholder="Tìm kiếm" class="bg-transparent ml-2" style="">
+        </div>
+    </div>
+
+    @* top 20 *@
+    <div>
+        <span>TOP 20</span>
+        <hr>
+        <div class="grid grid-cols-3">
+            @* item *@
+            <div class="bg-gray-400 mt-5 mx-auto" style="width:200px; height:200px">
+                tem
+            </div>
+
+            @* item *@
+            <div class="bg-gray-400 mt-5 mx-auto" style="width:200px; height:200px">
+                tem
+            </div>
+                        @* item *@
+            <div class="bg-gray-400 mt-5 mx-auto" style="width:200px; height:200px">
+                tem
+            </div>
+                        @* item *@
+            <div class="bg-gray-400 mt-5 mx-auto" style="width:200px; height:200px">
+                tem
+            </div>
+                        @* item *@
+            <div class="bg-gray-400 mt-5 mx-auto" style="width:200px; height:200px">
+                tem
+            </div>
+                        @* item *@
+            <div class="bg-gray-400 mt-5 mx-auto" style="width:200px; height:200px">
+                tem
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+</div>
+
+<style>
+    input:focus{
+        outline: 0;
+    }
+</style>

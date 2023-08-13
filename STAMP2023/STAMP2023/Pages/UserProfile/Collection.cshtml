@@ -1,0 +1,82 @@
+@page
+@model UserProfileModel
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div >
+    @* logo *@
+    <div class="relative">
+        <div class=" flex items-center justify-center w-full mt-8">
+            <div class="w-10/12 flex items-center justify-center" style="background-color: #F8F1F1; height:360px; border-radius: 0px 0px 60px 60px">
+                <img src="~/image/Header and Footer/Logo.png" alt="logo">
+            </div>
+
+        </div>
+        <div class="absolute flex items-end" style="bottom:-100px; left:200px">
+            <object data="~/image/Profile/DefaultProfileAvatar.svg" type="image/svg+xml"></object>
+            <span class="mb-4">Tên nguời dùng</span>
+        </div>
+    </div>
+
+    @* options *@
+    <div class="mt-40 flex items-center justify-around">
+        @* options component *@
+        <div class="flex items-center justify-center" style="background-color: #E8AA42; width:350px;height:110px; border-radius:15px">
+            <span>Tac Pham</span>
+        </div>
+
+        @* options component *@
+        <div class="flex items-center justify-center" style="background-color: #E8AA42; width:350px;height:110px; border-radius:15px">
+            <span>Bảng xếp hạng</span>
+        </div>
+
+        @* options component *@
+        <div class="flex items-center justify-center" style="background-color: #E8AA42; width:350px;height:110px; border-radius:15px">
+            <span>Đăng kí</span>
+        </div>
+
+    </div>
+
+        @* colleciton list *@
+        @* collection item *@
+        <div class="flex items-center mt-10 ml-40 p-4">
+            <img src="~/image/Header and Footer/Logo.png" alt="" class="bg-black" style="max-height: 150px; max-width: 180px; object-fit: cover">
+
+            <div class="ml-12">
+                <span class="my-2">Ten tac pham: STAMP 2023</span>
+                <div class="flex justify-between">
+                <span>Hang: 00</span>
+                <span>Vote: 00</span>
+                </div>
+            </div>
+        </div>        
+
+        @* collection item *@
+        <div class="flex items-center mt-10 ml-40 p-4">
+            <img src="~/image/Header and Footer/Logo.png" alt="" class="bg-black" style="max-height: 150px; max-width: 180px; object-fit: cover">
+
+            <div class="ml-12">
+                <span class="my-2">Ten tac pham: STAMP 2023</span>
+                <div class="flex justify-between">
+                <span>Hang: 00</span>
+                <span>Vote: 00</span>
+                </div>
+            </div>
+        </div>     
+
+                @* collection item *@
+        <div class="flex items-center mt-10 ml-40 p-4">
+            <img src="~/image/Header and Footer/Logo.png" alt="" class="bg-black" style="max-height: 150px; max-width: 180px; object-fit: cover">
+
+            <div class="ml-12">
+                <span class="my-2">Ten tac pham: STAMP 2023</span>
+                <div class="flex justify-between">
+                <span>Hang: 00</span>
+                <span>Vote: 00</span>
+                </div>
+            </div>
+        </div>     
+</div>
+

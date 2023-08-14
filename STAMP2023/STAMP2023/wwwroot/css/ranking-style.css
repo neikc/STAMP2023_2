@@ -10,6 +10,7 @@
 
     position: absolute;
     top: 353px;
+    left: 35%;
     margin: 0 auto;
 }
 
@@ -17,16 +18,17 @@
     display: flex;
     justify-content: space-around;
 
-    margin-top: 85px;
+    margin-top: 55px;
 }
 
 .stamp-box {
-    width: 25%;
     height: 544px;
     border-radius: 10px;
     border: 3px solid #000;
     background: #FFF;
     overflow: hidden;
+    margin-top: 40px;
+    position: relative;
 }
 
 .stamp-top-info {
@@ -34,14 +36,24 @@
     justify-content: space-between;
 }
 
+.container-not-framework {
+    margin: 0 25px;
+}
+
 .stamp-name {
     width: 55%;
     margin-left: 5%;
     margin-top: 2%;
 
-    font-size: 24px;
+    font-size: 1.55vw;
     font-weight: 600;
     text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .stamp-name {
+        font-size: 4.7vw;
+    }
 }
 
 .stamp-author {
@@ -49,12 +61,17 @@
     margin-top: 5%;
 
     text-align: center;
-    font-size: 20px;
+    font-size: 1.4vw;
     font-weight: 300;
 }
 
+@media only screen and (max-width: 768px) {
+    .stamp-author {
+        font-size: 4.1vw;
+    }
+}
+
 .stamp {
-    clear: both;
     padding: 10px;
 
     position: relative;
@@ -65,12 +82,7 @@
     background-position: -10px -10px;
 
     overflow: hidden;
-}
-
-.stamp-top-box {
-    margin-top: 2%;
-    height: 100%;
-    width: auto;
+    margin: 0 auto;
 }
 
 .clickable {
@@ -78,12 +90,13 @@
 }
 
 .number-info {
-    margin-top: 8%;
-    height: 20%;
+    height: 7%;
     display: flex;
-    justify-content: space-between;
-    bottom: 5%;
-    margin-bottom: 5%;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
 }
 
 .like-box {
@@ -91,8 +104,6 @@
     justify-content: space-around;
 
     width: 34%;
-    height: 40%;
-    margin-left: 5%;
     border: none;
 
     border-radius: 15px;
@@ -101,33 +112,38 @@
 
 .stt-box {
     width: 34%;
-    height: 40%;
-    margin-right: 5%;
+    display: flex;
+    align-items: center;
 
     border-radius: 15px;
     background: var(--xanh-l, #34A853);
-
-    text-align: center;
 }
 
 .number {
-    font-size: 32px;
+    font-size: 2.0vw;
     font-weight: 500;
 }
 
+@media only screen and (max-width: 768px) {
+    .number {
+        font-size: 5.5vw;
+    }
+}
+
 .like-number {
-    width: 37.5%;
-    margin-top: 2%;
+    width: 20%;
+    margin: auto 0;
 }
 
 .like-image {
-    margin-top: 2%;
-    width: 30%;
-    height: 80%;
+    width: 22%;
+    margin: auto 0;
 }
 
 .stt-number {
-    margin-top: 2%;
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
 }
 
 .popup {
@@ -145,13 +161,25 @@
 .popup-content {
     background-color: white;
     margin: 10% auto;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #888888;
     width: 60%;
     height: 60%;
     font-weight: bolder;
     border-radius: 28px;
     border: 1.5px solid #000;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .popup-content {
+        width: 90vw;
+        height: 55vh;
+        margin: 0;
+        position: fixed;
+        top: 22.5vh;
+        left: 5vw;
+    }
 }
 
 .show {
@@ -166,15 +194,15 @@
 .stamp-popup {
     display: block;
     float: left;
-    width: 20%;
-    height: 100%;
-    width: auto;
+    width: 35%;
+    height: min(auto, 100%);
+    margin: 0 3% 3% 0;
 }
 
-.popup-info {
-    margin-left: 3%;
-    float: left;
-    overflow: auto;
+@media only screen and (max-width: 768px) {
+    .stamp-popup {
+        padding: 1vw;
+    }
 }
 
 .popup-stamp-name, .popup-author, .popup-description, .popup-description-title {
@@ -182,30 +210,59 @@
 }
 
 .popup-stamp-name {
-    font-size: 28px;
+    font-size: 2.1vw;
     font-weight: 500;
 }
 
+@media only screen and (max-width: 768px) {
+    .popup-stamp-name {
+        font-size: 4.8vw;
+    }
+}
+
 .popup-author {
-    font-size: 20px;
+    font-size: 2.6vh;
     font-weight: 600;
-    margin: 20px 0 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .popup-author {
+        font-size: 3.7vw;
+        margin-top: 10px;
+    }
 }
 
 .popup-description-title {
-    font-size: 20px;
+    font-size: 1.6vw;
     font-weight: 600;
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .popup-description-title {
+        font-size: 3.5vw;
+        margin-top: 30px;
+    }
+}
+
 .popup-description {
-    font-size: 20px;
+    font-size: 1.6vw;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .popup-description {
+        font-size: 3.2vw;
+        margin-top: 25px;
+    }
 }
 
 .stamp-top-img-container {
     width: 100%;
-    height: 60%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .big-space {
@@ -214,33 +271,53 @@
 
 .contest-container {
     width: 90%;
-    height: 120px;
-    margin: 60px auto;
+    height: 10vw;
+    margin: 3.5vw auto;
     border-radius: 15px !important;
     border: 2px solid var(--xanh-dng, #4285F4) !important;
 
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .contest-container {
+        height: 20vw;
+        margin: 6vw auto;
+    }
 }
 
 .stt-contest-box {
     margin: auto 0;
-    width: 5%;
+    width: 7%;
     background-color: none;
     color: var(--xanh-l, #34A853);
     text-align: center;
-    font-size: 40px;
+    font-size: 3.0vw;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .stt-contest-box {
+        font-size: 4.1vw;
+    }
 }
 
 .contest-name {
     margin: auto 0;
-    width: 45%;
+    width: 42%;
     text-align: center;
     overflow: auto;
     color: #000;
-    font-size: 32px;
+    font-size: 2.4vw;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .contest-name {
+        width: 39%;
+        font-size: 3.8vw;
+    }
 }
 
 .contest-author {
@@ -248,13 +325,35 @@
     margin: auto 0;
     color: #000;
     text-align: center;
-    font-size: 32px;
+    font-size: 2.0vw;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .contest-author {
+        width: 22%;
+        font-size: 3.4vw;
+    }
 }
 
 .contest-like-box {
     width: 10%;
+    height: 40%;
     margin: auto 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .contest-like-box {
+        width: 15%;
+        height: 60%;
+        margin: auto 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contest-like-number{
+        font-size: 3.5vw;
+    }
 }
 
 #more {
@@ -262,16 +361,29 @@
 }
 
 .readMoreBtn {
-    margin: 30px auto;
-    width: 12%;
-    height: 60px;
+    margin: 0 auto;
+    width: 15%;
+    height: 4vw;
     background-color: #b8b3b3;
     border-radius: 15px !important;
     border: 2px solid black;
 }
 
+@media only screen and (max-width: 768px) {
+    .readMoreBtn {
+        width: 35%;
+        height: 10vw;
+    }
+}
+
 .readMoreBtnContent {
     margin: auto 0;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .readMoreBtnContent {
+        font-size: 3.5vw;
+    }
 }

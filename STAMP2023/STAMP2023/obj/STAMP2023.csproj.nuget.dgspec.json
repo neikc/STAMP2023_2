@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023_2\\STAMP2023\\STAMP2023\\STAMP2023.csproj": {}
+    "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023-clone\\STAMP2023\\STAMP2023\\STAMP2023.csproj": {}
   },
   "projects": {
-    "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023_2\\STAMP2023\\STAMP2023\\STAMP2023.csproj": {
+    "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023-clone\\STAMP2023\\STAMP2023\\STAMP2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023_2\\STAMP2023\\STAMP2023\\STAMP2023.csproj",
+        "projectUniqueName": "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023-clone\\STAMP2023\\STAMP2023\\STAMP2023.csproj",
         "projectName": "STAMP2023",
-        "projectPath": "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023_2\\STAMP2023\\STAMP2023\\STAMP2023.csproj",
+        "projectPath": "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023-clone\\STAMP2023\\STAMP2023\\STAMP2023.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023_2\\STAMP2023\\STAMP2023\\obj\\",
+        "outputPath": "D:\\Tuan\\Self-Practice\\Web\\STAMP\\STAMP2023-clone\\STAMP2023\\STAMP2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

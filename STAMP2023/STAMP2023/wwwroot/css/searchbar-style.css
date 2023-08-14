@@ -1,8 +1,8 @@
 ﻿.search {
   display: block;
   position: absolute;
-  top: 2220px;
-  right: 20%;
+  top: 2225px;
+  right: 30%;
   margin-left: -4rem;
   margin-top: -1rem;
   width: 8rem;
@@ -134,4 +134,10 @@
 .search__close:after {
   transform: rotate(45deg) translateX(2rem);
   transition: transform 0.2s 0.2s, opacity 0.1s 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+  .search {
+    top: 3380px;
+  }
 }

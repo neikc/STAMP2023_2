@@ -1,0 +1,243 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .stamp-border {
+            border: 5px solid #E8AA42;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .countdown-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 30px;
+            background-color: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 50%;
+            height: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .countdown-item {
+            width: 25%;
+            text-align: center;
+            word-wrap: break-word;
+            top: 50%;
+            left: 50%;
+        }
+
+        .countdown-button {
+            text-align: center;
+            word-wrap: break-word;
+            top: 50%;
+            left: 50%;
+            background-color: red;
+            color: white;
+            font-size: 150%;
+            border-radius: 30px;
+        }
+
+        .index_background-image,
+        .index_pattern-image {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120%;
+            max-height: 780px;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .index_cocaugiaithuong {
+            text-align: center;
+            color: #E57C23;
+            font-size: 200%;
+            font-weight: 700;
+            letter-spacing: 6px;
+            word-wrap: break-word;
+        }
+
+        .index_cocaugiaithuong_border {
+            height: 60%;
+            opacity: 0.80;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            border: 1px black solid
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Banner and Countdown -->
+    <div class="position-relative">
+        <img class="img-fluid" src="~/image/Index/banner1.jpg" style="width:100%; max-height:780px; object-fit:cover">
+        <div class="countdown-container position-absolute top-100 start-50 translate-middle container-md" id="Index_Countdown">
+            <div class="w3-card-4 rounded-lg p-4">
+                <h2>Thời gian tham gia còn</h2>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-danger">00</div>
+                        <div>ngày</div>
+                    </div>
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-primary">00</div>
+                        <div>giờ</div>
+                    </div>
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-warning">00</div>
+                        <div>phút</div>
+                    </div>
+                    <div class="col-6 col-md-3 countdown-item">
+                        <div class="display-4 text-success">00</div>
+                        <div>giây</div>
+                    </div>
+                </div>
+                <!--This class is bootstrap-->
+                <button class="btn btn-danger btn-lg btn-block mt-4 countdown-button">THAM GIA NGAY</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Add space to separate the countdown section -->
+    <div style="padding-bottom:250px"></div>
+
+    <div class=" text-center position-relative" style="display: flex; align-items: center; justify-content: center;">
+        <!-- Background Image -->
+        <img class="background-img img-fluid" src="~/image/Index/GioiThieuVeStamp/BG.svg" alt="Background Image">
+        <div class="position-absolute top-0 w-100 h-100">
+            <!-- Pattern Image -->
+            <img class="pattern-img img-fluid" src="~/image/Index/GioiThieuVeStamp/Pattern.svg" alt="Pattern Image">
+            <!-- Title and line -->
+            <div class="position-absolute top-0 w-100 h-100" style="padding-top:8%; padding-inline:15%">
+                <h2 class="text-danger" style="color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
+                    GIỚI THIỆU VỀ S.T.A.M.P
+                </h2>
+                <div class="align-content-center" style="padding-bottom:3%">
+                    <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/ColoredLine.svg" alt="Stamp Image">
+                </div>
+
+                <!-- Content gioi thieu ve STAMP -->
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-6 col-md-12 order-2 order-lg-1 text-left" style="text-align:justify">
+                        <span style="color: #34A853; font-size: 27px; font-family: Josefin Sans; font-style: italic; font-weight: 600; line-height: 35px; word-wrap: break-word">
+                            Cuộc thi thiết kế và triển lãm tem thư S.T.A.M.P
+                        </span>
+                        <span style="color: black; font-size: 24px; font-family: Josefin Sans; font-weight: 600; line-height: 35px; word-wrap: break-word">
+                            Được lấy cảm hứng từ ngày kỷ niệm “Ngày tem Việt Nam” 27/08.
+                            Cuộc thi được tổ chức với mục tiêu vừa giúp các bạn sinh viên lan tỏa tình yêu quê hương đất nước thông qua những tác phẩm tem thư
+                            vừa giúp các bạn có thêm trải nghiệm thiết kế ra một tác phẩm tem thư hoàn chỉnh và duy trì sức sống trường tồn của tem thư
+                        </span>
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                        <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/Untitled design (1) 1.png" alt="Stamp Image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Add space to separate the introduction section -->
+    <div class="container-fluid py-5"></div>
+
+    <!-- Cơ cấu giải thưởng -->
+    <div class="container text-center">
+        <!-- Title and line -->
+        <h2 class="text-danger">CƠ CẤU GIẢI THƯỞNG</h2>
+        <div class="align-content-center" style="padding-bottom:3%">
+            <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/ColoredLine.svg" alt="Stamp Image">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI NHẤT</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%; border: 3px coral; box-shadow: 3px 3px 4px rgba(125, 78, 172, 0.75) ">
+                            <p class="index_cocaugiaithuong" style="color:orangered">3.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI NHÌ</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">2.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI BA</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">1.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI KHUYẾN KHÍCH</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col-5">
+                    <div style="min-height: 250px;">
+                        <h3 class="index_CocauGiaithuong" style="font-size:150%">GIẢI YÊU THÍCH</h3>
+                        <div class="index_cocaugiaithuong_border" style="padding-block:8%">
+                            <p class="index_cocaugiaithuong">500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add space to separate the prize section -->
+    <div class="container-fluid py-5"></div>
+
+    <!-- Các mốc thời gian -->
+    <div class=" text-center position-relative" style="display: flex; align-items: center; justify-content: center;">
+        <!-- Background Image -->
+        <img class="background-img img-fluid" src="~/image/Index/GioiThieuVeStamp/BG.svg" alt="Background Image">
+        <div class="position-absolute top-0 w-100 h-100">
+            <!-- Pattern Image -->
+            <img class="pattern-img img-fluid" src="~/image/Index/GioiThieuVeStamp/Pattern.svg" alt="Pattern Image">
+            <!-- Title and line -->
+            <div class="position-absolute top-0 w-100 h-100" style="padding-top:8%; padding-inline:15%">
+                <h2 class="text-danger" style="color: #EA4335; font-size: 48px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
+                    CÁC MỐC THỜI GIAN
+                </h2>
+                <div class="align-content-center">
+                    <img class="img-fluid" src="~/image/Index/GioiThieuVeStamp/ColoredLine.svg" alt="Stamp Image">
+                </div>
+                <!-- Content TIMELINE -->
+                <div class="w3-container w3-bottombar w3-border-red w3-margin-bottom"></div>
+                <img class="img-fluid" src="~/image/Index/ThoiGian.png" alt="Timeline">
+            </div>
+        </div>
+    </div>
+
+</body>

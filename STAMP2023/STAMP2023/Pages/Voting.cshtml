@@ -4,6 +4,124 @@
     ViewData["Title"] = "Bình Chọn";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bình Chọn</h1>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<div class="flex flex-col items-center">
+    <p class = "vote-time">
+        THỜI GIAN BÌNH CHỌN
+    </p>
+    <div class="time-container">
+        <div class="clock-text">
+            <span>00</span>
+            <span>Ngày</span>
+        </div>
+
+        <div class="clock-text">
+            <span>00</span>
+            <span>Giờ</span>
+        </div>
+
+        <div class="clock-text">
+            <span>00</span>
+            <span>Phút</span>
+        </div>
+
+        <div class="clock-text">
+            <span>00</span>
+            <span>Giây</span>
+        </div>
+    </div>
+
+    <div class="w-full flex justify-between">
+        <div></div>
+        @* search box *@
+        <div class="  flex items-around rounded-full p-2 mr-4 mt-8 bg-gray-200">
+            <img class="mr-4 pl-2" src="~/icons/search.svg" alt="">
+            <input class="bg-transparent" type="text" placeholder="Tìm kiếm">
+        </div>
+    </div>
+
+    <div class="w-10/12">
+        <h2 class="text-left" style="font-size:30px;">
+            TOP 50
+        </h2>
+        <hr class="border-2 border-black " style="border: 1px solid #000; background: #000; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);">
+
+        @* items list*@
+        <div class="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 ">
+            <div class="mt-8" style="width: 175px;">
+                <div class="bg-gray-200" style="width: 175px; height: 125px; "></div>
+                <span>ten tac pham</span>
+                <span>ten tac gia</span>
+            </div>
+
+                        <div class="mt-8" style="width: 175px;">
+                <div class="bg-gray-200" style="width: 175px; height: 125px; "></div>
+                <span>ten tac pham</span>
+                <span>ten tac gia</span>
+            </div>
+
+                        <div class="mt-8" style="width: 175px;">
+                <div class="bg-gray-200" style="width: 175px; height: 125px; "></div>
+                <span>ten tac pham</span>
+                <span>ten tac gia</span>
+            </div>
+
+                        <div class="mt-8" style="width: 175px;">
+                <div class="bg-gray-200" style="width: 175px; height: 125px; "></div>
+                <span>ten tac pham</span>
+                <span>ten tac gia</span>
+            </div>
+
+                                    <div class="mt-8" style="width: 175px;">
+                <div class="bg-gray-200" style="width: 175px; height: 125px; "></div>
+                <span>ten tac pham</span>
+                <span>ten tac gia</span>
+            </div>
+
+                                    <div class="mt-8" style="width: 175px;">
+                <div class="bg-gray-200" style="width: 175px; height: 125px; "></div>
+                <span>ten tac pham</span>
+                <span>ten tac gia</span>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <style>
+        .vote-time {
+            color: #3C3A5B;
+            text-shadow:3px 3px 2px #37DBFF;
+            text-align: center;
+            font-family: Kufam;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 109.775px; /* 228.699% */
+        }
+
+        .time-container{
+            width: 100%;
+            height: 309px;
+            flex-shrink: 0;
+            border: 5px solid #2CE7F3;
+            background: linear-gradient(180deg, rgba(86, 94, 174, 0.00) 0%, #000 0.01%, #1E2A97 100%);
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .clock-text{
+            color: white !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+        }
+    </style>
 </div>

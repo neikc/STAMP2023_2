@@ -3,8 +3,29 @@
 @{
     ViewData["Title"] = "Tin Tức";
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div class="text-left">
+    <div class="flex w-full justify-between">
+        <div> </div>
+        @* search box *@
+        <div class=" border-2 border-black flex items-around rounded-full p-2">
+            <img class="mr-2" src="~/icons/search.svg" alt="">
+            <input type="text" placeholder="Tìm kiếm">
+        </div>
+    </div>
 
--<div class="text-center">
-    <h1 class="display-4">Tin Tức</h1>
+    @* List of items *@
+    <div class="grid grid-cols-2 ">
+        <div class=" gap-8 mx-4 md:mx-30 lg:mx-20">
+            <img src="" alt="" class="w-full h-96 mb-8">
+            <span class="text-3xl">Title</span>
+            <br>
+            <span class="text-red-400 text-italic text-sm">Ngày đăng</span>
+            <br>
+            <p class="text-semi text-left mt-4">Description</p>
+        </div>
+
+
+    </div>
 </div>
 

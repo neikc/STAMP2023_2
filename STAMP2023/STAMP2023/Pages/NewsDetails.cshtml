@@ -1,0 +1,60 @@
+@page
+@model NewsModel
+@{
+    ViewData["Title"] = "Tin Tức";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.13/tailwind.min.css">
+<div class="text-left">
+    <div class="flex w-full justify-between my-12">
+        <div> </div>
+        @* search box *@
+        <div class=" border-2 border-black flex items-around rounded-full p-2">
+            <img class="mr-2" src="~/icons/search.svg" alt="">
+            <input type="text" placeholder="Tìm kiếm">
+        </div>
+    </div>
+
+    <h1 class="text mx-4" style="font-family:arial">
+        HEADLINES
+    </h1>
+
+    <div class="text-right bg-pink-300 flex  items-center justify-end p-4 m-4">
+        <span class="text-sm" style="font-style: italic; font-weight: 400">Ngày đăng</span>
+    </div>
+    
+    <div class="flex w-screen justify-around">
+        <article class="w-8/12" style="font-weight:400 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eos optio fugiat hic omnis blanditiis aliquid? Tempora dolorum aliquam et dicta quibusdam dolorem illo, dignissimos, aspernatur, voluptatibus architecto maxime eos.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit hic laboriosam error. Neque, sequi quisquam repellat omnis iusto libero cum laboriosam error officiis, temporibus, voluptas facere corrupti qui nobis accusantium?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos delectus voluptatum adipisci veniam aspernatur, possimus voluptas quibusdam ipsam ex at saepe neque minima praesentium quasi, in, eius quo qui officiis?
+
+        </article>
+        <div class="w-3/12">
+            <div>Bài viết khác</div>
+            <hr class="mr-40 mt-4">
+
+            <div>
+
+                <div class="flex justify-between mr-10 mt-10">
+                    <img src=" bg-gray-200" style="width:200px;  height:140px" alt="">
+                    <h3>title</h3>
+                </div>
+
+
+                <div class="flex justify-between mr-10 mt-10">
+                    <img src=" bg-gray-200" style="width:200px;  height:140px" alt="">
+                    <h3>title</h3>
+                </div>
+
+
+                <div class="flex justify-between mr-10 mt-10">
+                    <img src=" bg-gray-200" style="width:200px;  height:140px" alt="">
+                    <h3>title</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

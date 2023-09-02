@@ -117,3 +117,5 @@ D:\STAMP2023\STAMP2023\obj\Debug\net6.0\STAMP2023.pdb
 D:\STAMP2023\STAMP2023\obj\Debug\net6.0\STAMP2023.genruntimeconfig.cache
 D:\STAMP2023\STAMP2023\obj\Debug\net6.0\ref\STAMP2023.dll
 D:\STAMP2023\STAMP2023\obj\Debug\net6.0\scopedcss\Pages\About.cshtml.rz.scp.css
+D:\STAMP2023\STAMP2023\obj\Debug\net6.0\scopedcss\Pages\About2022.cshtml.rz.scp.css
+D:\STAMP2023\STAMP2023\obj\Debug\net6.0\scopedcss\Pages\About2021.cshtml.rz.scp.css

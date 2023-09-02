@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "85QPxH07KLUKsf1Jv4pcOyllMS0iB/uHTlrtAeNMT1k=",
+  "Hash": "sIoPoyIe4s6wUIiRSu0V3ULxY6Ns3716fCrycgqUCJI=",
   "Source": "STAMP2023",
   "BasePath": "_content/STAMP2023",
   "Mode": "Default",
@@ -338,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\Index\\GioiThieuVeStamp\\Untitled design (1) 1.png"
+    },
+    {
+      "Identity": "D:\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\NHẤT 1.png",
+      "SourceId": "STAMP2023",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STAMP2023\\STAMP2023\\wwwroot\\",
+      "BasePath": "_content/STAMP2023",
+      "RelativePath": "image/Index/NHẤT 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Index\\NHẤT 1.png"
     },
     {
       "Identity": "D:\\STAMP2023\\STAMP2023\\wwwroot\\image\\Index\\STAMP 2023 banner.png",
